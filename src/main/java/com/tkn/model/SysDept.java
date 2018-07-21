@@ -1,7 +1,16 @@
 package com.tkn.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 import java.util.Date;
 
+@Builder  // 添加构造器
+@NoArgsConstructor // 添加无参构造方法
+@AllArgsConstructor // 添加全参构造方法
+@ToString
 public class SysDept {
     private Integer id;
 
