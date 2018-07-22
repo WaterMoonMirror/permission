@@ -127,7 +127,7 @@ public class SysTreeService {
                 // 排序
                 Collections.sort(deptLevelDtoList,deptSeqComparator );
                 // 设置下一层
-                deptLevelDto.setDeptLis(deptLevelDtoList);
+                deptLevelDto.setDeptList(deptLevelDtoList);
                 // 进入到下一层处理
                 TransformDepTree(deptLevelDtoList,nextLevel,levelDtoMultiMap);
             }
